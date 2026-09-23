@@ -23,6 +23,14 @@ Weitere Befehle:
 
 Der Build nutzt relative Pfade und Hash-Routing – der Inhalt von `dist/` funktioniert auf jedem statischen Webserver ohne weitere Konfiguration.
 
+## Online veröffentlichen (GitHub Pages)
+
+Der Workflow `.github/workflows/deploy.yml` baut und veröffentlicht die App automatisch bei jedem Push auf `main`.
+
+1. Im Repository unter **Settings → Pages → Build and deployment → Source** die Option **GitHub Actions** wählen.
+2. Änderungen in `main` übernehmen (oder den Workflow unter **Actions** manuell starten).
+3. Die App ist danach unter `https://<benutzername>.github.io/<repository>/` erreichbar.
+
 ## Inhalte
 
 - **Begriffe verstehen** – Stereotyp, Vorurteil, Bias, Conscious Bias, Unconscious Bias, Diskriminierung (mit Suche und Detailansichten)
